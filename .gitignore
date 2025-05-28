@@ -1,0 +1,105 @@
+## .NET build files
+bin/
+obj/
+out/
+
+## User-specific files
+.vs/
+.idea/
+.vscode/
+*.user
+*.userosscache
+*.suo
+*.userprefs
+
+## Windows Installer files
+Thumbs.db
+ehthumbs.db
+
+## Windows Installer
+Desktop.ini
+
+## ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+## .NET Core / .NET 5+ files
+.project
+.project.json
+.docker/
+
+## NUGET
+*.nupkg
+*.snupkg
+packages/
+
+## Node.js (si usas un frontend o una parte del backend con Node.js)
+node_modules/
+
+## VS Code directories and settings
+.vscode/
+
+## JetBrains Rider config files (si usas Rider)
+.idea/
+
+## Ignore user-specific JetBrains files
+.idea/
+
+## Ignore generated files from EF Core Migrations (si usas Entity Framework)
+migrations/
+
+## Ignore generated logs, databases, and other files
+*.log
+*.sql
+*.sqlite
+
+## Ignore Azure Web Apps publish folder (si aplicas despliegue directo)
+.publish/
+
+## DotCover (si usas cobertura de código en JetBrains)
+.idea/.idea.DotCover/
+
+## Ignore user secrets (si estás usando Secret Manager)
+secrets/
+
+# Ignore configuration files for CI/CD
+ci/
+cd/
+
+# User-specific files (in case you're using Visual Studio for Mac)
+.vscode/
+
+# ASP.NET Core settings (Only for those who are using ASP.NET Core projects)
+appsettings.Development.json
+appsettings.Local.json
+
+# Ignore IntelliJ / Rider caches (for JetBrains tools)
+.idea/
+
+## .NET build files
+Infrastructure/bin/
+Infrastructure/obj/
+
+# Ignorar las carpetas bin y obj dentro de la carpeta Application
+Application/bin/
+Application/obj/
+
+# Ignorar archivos generados como .dll y archivos de caché
+*.dll
+*.cache
+*.assets.cache
+
+# Ignorar archivos generados en Domain
+Domain/bin/
+Domain/obj/
+
+# Otros archivos y carpetas generadas que deberían estar en .gitignore
+out/
+
+# Do not ignore Application, Domain, Infrastructure, or Web.API folders
+# Keep these in the repo (don't add these folders in the .gitignore)
+# These are important for your Clean Architecture design
+
+# Ignore temp files, IDE-related files, or build artifacts inside these folders
+# but include the C# code files.
+web.API/obj/Debug/net8.0/refint/web.API.dll
+web.API/obj/Debug/net8.0/ref/web.API.dll
